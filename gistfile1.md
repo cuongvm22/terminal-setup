@@ -11,10 +11,10 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ### Install powerline fonts
 https://github.com/powerline/fonts
 
-### download agnoster theme
+### Download agnoster theme
 https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 
-### change setting for vs code
+### Change settings for vscode
 ```sh
 "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
 "terminal.integrated.shell.osx": "/bin/zsh"
@@ -41,6 +41,6 @@ https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 // "terminal.integrated.rendererType": "canvas"
 ```
 
-1. change theme for Mac OSX Terminal to agnoster
-1. add DEFAULT_USER=`whoami` in `~/.zshrc`
-1. change theme to `agnoster` in `~/.zshrc`
+1. Change Theme for Mac OSX Terminal to agnoster
+1. Add DEFAULT_USER=`whoami` in `~/.zshrc`
+1. Change Theme to `agnoster` in `~/.zshrc`
