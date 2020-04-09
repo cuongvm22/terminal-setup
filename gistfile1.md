@@ -27,6 +27,7 @@ https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 4. Add or Edit below settings to Settings JSON file
 5. Save.
 6. That's all 
+
 ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it. 
 
 ```sh
