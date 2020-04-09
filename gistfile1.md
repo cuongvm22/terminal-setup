@@ -11,8 +11,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ### Install powerline fonts
 https://github.com/powerline/fonts
 
-### or Install Nerd Fonts.
+### or Install Nerd Fonts. (If you don't use powerline fonts)
 https://www.nerdfonts.com/font-downloads
+> recommend font: Hack Nerd Font https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 
 ### Download agnoster theme
 https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
@@ -44,6 +45,7 @@ https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 // "terminal.integrated.rendererType": "canvas"
 ```
 
-1. Change Theme for Mac OSX Terminal to agnoster
+### Change Theme for Mac OSX Terminal to agnoster
 1. Add DEFAULT_USER=`whoami` in `~/.zshrc`
 1. Change Theme to `agnoster` in `~/.zshrc`
+1. Restart Terminal or `source ~/.zshrc` 
