@@ -15,9 +15,6 @@ https://github.com/powerline/fonts
 https://www.nerdfonts.com/font-downloads
 > recommend font: Hack Nerd Font https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 
-### Download agnoster theme
-https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
-
 ### Change settings for vscode
 
 #### How?
@@ -60,3 +57,20 @@ ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it.
 1. Add DEFAULT_USER=`whoami` in `~/.zshrc`
 1. Change Theme to `agnoster` in `~/.zshrc`
 1. Restart Terminal or `source ~/.zshrc` 
+
+### Download `agnoster` theme and set up
+
+1. Download
+https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
+
+2. Unzip
+3. Open Mac Terminal
+4. `CMD` + `,` open settings
+5. on Left Sidebar, Click `Config` Icon and Select `Import...` 
+6. Choose Terminal Schema:
+  `UnzipPath/terminal/*.terminal`
+7. I recommend `Solarized Dark.terminal` 
+8. then, make it default (select imported schema and click "Default" button below)
+9. That'all. if you restart terminal, you can see great `agnoster` theme with oh my zsh.
+
+
