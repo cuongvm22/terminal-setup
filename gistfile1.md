@@ -19,6 +19,16 @@ https://www.nerdfonts.com/font-downloads
 https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 
 ### Change settings for vscode
+
+#### How?
+1. open vscode
+2. open Command Pallete (Short Cut: `F1`)
+3. type `settings` and Select `Preferences: Open Settings (JSON)`
+4. Add or Edit below settings to Settings JSON file
+5. Save.
+6. That's all 
+ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it. 
+
 ```sh
 "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
 "terminal.integrated.shell.osx": "/bin/zsh"
