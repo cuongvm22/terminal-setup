@@ -11,6 +11,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ### Install powerline fonts
 https://github.com/powerline/fonts
 
+### or Install Nerd Fonts.
+https://www.nerdfonts.com/font-downloads
+
 ### Download agnoster theme
 https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 
