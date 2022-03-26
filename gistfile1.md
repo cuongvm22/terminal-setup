@@ -29,7 +29,9 @@ ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it.
 
 ```sh
 "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-"terminal.integrated.shell.osx": "/bin/zsh"
+// @vtwang added (deprecated)
+// "terminal.integrated.shell.osx": "/bin/zsh",
+"terminal.integrated.defaultProfile.osx": "zsh",
 
 // @Drakal added
 // I'd also consider adjusting line height if icons are cut off on top too or things look super cramped.
@@ -54,21 +56,20 @@ ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it.
 ```
 
 ### Change Theme for Mac OSX Terminal to agnoster
+
 1. Add DEFAULT_USER=`whoami` in `~/.zshrc`
 1. Change Theme to `agnoster` in `~/.zshrc`
 1. Restart Terminal or `source ~/.zshrc` 
 
+
 ### Download `agnoster` theme and set up
 
-1. Download
-https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
-
+1. Download https://github.com/mbadolato/iTerm2-Color-Schemes/zipball/master
 2. Unzip
 3. Open Mac Terminal
 4. `CMD` + `,` open settings
 5. on Left Sidebar, Click `Config` Icon and Select `Import...` 
-6. Choose Terminal Schema:
-  `UnzipPath/terminal/*.terminal`
+6. Choose Terminal Schema: `UnzipPath/terminal/*.terminal`
 7. I recommend `Solarized Dark.terminal` 
 8. then, make it default (select imported schema and click "Default" button below)
 9. That'all. if you restart terminal, you can see great `agnoster` theme with oh my zsh.
