@@ -33,6 +33,10 @@ ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it.
 // "terminal.integrated.shell.osx": "/bin/zsh",
 "terminal.integrated.defaultProfile.osx": "zsh",
 
+// @jasonekratz added
+// This fixed the glyph issues I was having with Inconsolata Nerd Font.
+"terminal.integrated.gpuAcceleration": "canvas",
+
 // @Drakal added
 // I'd also consider adjusting line height if icons are cut off on top too or things look super cramped.
 // "terminal.integrated.lineHeight": 1.3
@@ -52,6 +56,7 @@ ps. This JSON type is `JSON with Comments`, so you can use comment syntax in it.
 // @kaustuv added
 // after the changing the font, still had some issues with the glyph spacing in the integrated terminal - fixed it with 
 // @ar2zee : fixed the problem for me.
+// (deprecated)
 // "terminal.integrated.rendererType": "canvas"
 ```
 
