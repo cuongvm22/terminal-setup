@@ -25,10 +25,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+- plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 ### Change settings for vscode
 
-#### How?
 1. open vscode
 2. open Command Pallete (Short Cut: `F1`)
 3. type `settings` and Select `Preferences: Open Settings (JSON)`
