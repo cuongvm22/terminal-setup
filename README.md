@@ -15,6 +15,17 @@ https://github.com/powerline/fonts
 https://www.nerdfonts.com/font-downloads
 > recommend font: Hack Nerd Font https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 
+### Oh my zsh plugin
+1. zsh-autosuggestions
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+2. zsh-syntax-highlighting
+```sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
 ### Change settings for vscode
 
 #### How?
